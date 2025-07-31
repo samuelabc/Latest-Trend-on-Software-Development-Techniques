@@ -1,0 +1,42 @@
+Based on Technology Radar Volume 32
+We only cover on techniques section for this sharing
+
+Introduction to Technology Radar
+Four quadrants:
+Techniques, tools, platforms, language and frameworks
+
+Recommendation:
+Adopt. Blips that we think you should seriously consider using.
+Trial. Things we think are ready for use, but not as completely proven as those in the Adopt ring. 
+Assess. Things to look at closely, but not necessarily trial yet — unless you think they would be a particularly good fit for you.
+Hold. Proceed with caution.
+
+Adopt
+- Data product thinking
+- Fuzz testing
+- Software Bill of Materials
+- Threat modeling
+
+Trial
+- API request collection as API product artifact
+- Architecture advice process
+- GraphRAG
+- Just-in-time privileged access management
+- Model distillation
+- Prompt engineering
+- Small language models
+- Using GenAI to understand legacy codebases
+
+Assess
+- AI-friendly code design
+- AI-powered UI testing
+- Competence envelope as a model for understanding system failures
+- Structured output from LLMs
+
+Hold
+- AI-accelerated shadow IT
+- Complacency with AI-generated code
+- Local coding assistants
+- Replacing pair programming with AI
+- Reverse ETL
+- SAFe™
