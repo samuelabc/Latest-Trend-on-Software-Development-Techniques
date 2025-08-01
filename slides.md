@@ -23,6 +23,9 @@ layout: default
 [ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar)
 
 [ThoughtWorks Technology Radar Techniques Section](https://www.thoughtworks.com/radar/techniques) 
+
+[MB Technology Radar](https://mercedes-benz.leanix.net/MercedesBenz/reports/radar-itcomponent/c435eabd-03dd-433d-8849-9fadcdb9cf67)
+
 ---
 layout: default
 ---
@@ -322,6 +325,15 @@ layout: image
 </div>
 
 ---
+layout: image
+---
+
+# Data Products
+<div class="flex justify-center mt-10">
+  <img src="/assets/data-product.png" style="width: 800px;" />
+</div>
+
+---
 layout: two-cols
 ---
 
@@ -438,8 +450,17 @@ layout: two-cols
 - Traditonally, security is relied on up-front specification followed by validation at the end.
 - This “Security Sandwich” approach is hard to integrate into Agile teams, since much of the design happens throughout the process, and it does not leverage the automation opportunities provided by continuous delivery.
 
+---
+layout: image
+---
 
-
+## STRIDE as a Practical Aid
+<div class="text-center mt-10">
+  <img src="/assets/stride.png" width="500" class="mx-auto" />
+    <a href="https://martinfowler.com/articles/agile-threat-modelling/TW_STRIDE_Cue_Cards.pdf" target="_blank" class="text-sm">
+      STRIDE cards
+    </a>
+</div>
 
 
 ---
@@ -512,6 +533,8 @@ layout: two-cols
 # Architecture Advice Process
 <div class="text-sm opacity-60 mb-4">Ring: Trial</div>
 
+<div class="mr-8">
+
 ## Problem with ARBs
 <div class="p-3 mr-8 bg-red-50 rounded-lg red">
   <div class="text-sm">Architecture Review Boards create bottlenecks and hinder workflow</div>
@@ -531,28 +554,29 @@ layout: two-cols
     <span class="text-sm">Collaborative decision making</span>
   </div>
 </div>
+</div>
 
 ::right::
 
 ## How It Works
-<div class="space-y-4">
-  <div class="p-2 bg-blue-50 rounded-lg">
-    <div class="font-semibold text-blue-800 mb-2">1. Decision Records</div>
+<div class="space-y-2">
+  <div class="p-4 bg-blue-50 rounded-lg">
+    <div class="font-semibold text-blue-800">1. Decision Records</div>
     <div class="text-sm">A structured doc capturing the proposed decision, advice gathered, alternatives considered, and final outcomes.</div>
   </div>
   
-  <div class="p-2 bg-green-50 rounded-lg">
-    <div class="font-semibold text-green-800 mb-2">Architecture Advisory Forum (AAF)</div>
+  <div class="p-4 bg-green-50 rounded-lg">
+    <div class="font-semibold text-green-800">Architecture Advisory Forum (AAF)</div>
     <div class="text-sm">A regular (e.g. weekly) open meeting where ADRs and decisions are discussed publicly. It includes representatives across teams (e.g. product, infra, compliance), promoting transparency and common understanding.</div>
   </div>
   
-  <div class="p-2 bg-purple-50 rounded-lg">
-    <div class="font-semibold text-purple-800 mb-2">3. Team-sourced Architectural Principles</div>
+  <div class="p-4 bg-purple-50 rounded-lg">
+    <div class="font-semibold text-purple-800">3. Team-sourced Architectural Principles</div>
     <div class="text-sm">Guiding standards created collaboratively by delivery teams to steer decisions and help identify principle‑conflicts in ADRs.</div>
   </div>
   
-  <div class="p-2 bg-orange-50 rounded-lg">
-    <div class="font-semibold text-orange-800 mb-2">4. Technology Radar</div>
+  <div class="p-4 bg-orange-50 rounded-lg">
+    <div class="font-semibold text-orange-800">4. Technology Radar</div>
     <div class="text-sm">A curated, organizational view of current and emerging technologies, informing and evolving the shared tech landscape.</div>
   </div>
 </div>
@@ -1483,17 +1507,36 @@ layout: two-cols
 
 ::right::
 
-<div class="text-sm mt-33 opacity-80">
+<div class="text-sm opacity-80">
 </div>
 
-<div class="pl-8">
+<div class="pl-8 mt-33">
 
 ## Recommendation
-<div class="mt-4 p-3 bg-yellow-100 rounded-lg border border-yellow-300">
+<div class="mt-2 p-2 bg-yellow-100 rounded-lg border border-yellow-300">
   <div class="text-sm"><strong><a href="https://www.thoughtworks.com/insights/blog/digital-transformation/how-value-slices-can-fix-your-digital-transformation">Leaner, value-driven approaches</a></strong> with comprehensive change programs</div>
 </div>
 
+<div class="text-sm mt-4 opacity-80">
 </div>
+
+### SAFe Big Picture
+
+<img src=/assets/safe.png width="400" class="" />
+</div>
+
+---
+layout: two-cols
+---
+
+## Value Slice
+<img src=/assets/value-slice.png width="500" class="mt-20" />
+
+::right::
+
+<img src=/assets/value-slice-2.png width="500" class="mt-40" />
+
+
 
 ---
 layout: center
